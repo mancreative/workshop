@@ -5,7 +5,7 @@ function App() {
   const address = useAddress();
   const connectWithMetamask = useMetamask();
   const disconnectWallet = useDisconnect();
-  const nftDrop = useNFTDrop('0x82747Bd4e435C9D5cF2342c8361B19910259C264');
+  const nftDrop = useNFTDrop('0x76ce075e6CcB713099dEe965F4124fb204c741ab');
   const [hasClaimedNFT, setHasClaimedNFT] = useState(false);
   const [isClaming, setIsClaming] = useState(false);
 
